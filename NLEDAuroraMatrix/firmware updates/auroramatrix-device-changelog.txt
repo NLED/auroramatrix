@@ -1,0 +1,37 @@
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. 
+EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES 
+PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
+FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE 
+PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL 
+NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+ Original Author: Jeffrey Nygaard
+ Company: Northern Lights Electronic Design, LLC
+ Date: December 6th, 2018
+ Contact: JNygaard@NLEDshop.com
+ Copyright© 2018 by Northern Lights Electronic Design, LLC. All Rights Reserved
+ 
+ Want a customized device that runs NLED Auora? We are avaialable for custom design work please contact!
+
+;=============       www.NLEDShop.com/nledauroramatrix          ============
+;=============     www.NorthernLightsElectronicDesign.com       ============
+ 
+
+NLED Pixel Controller Electron: http://www.nledshop.com/pixelelectron/
+
+	Bootloader v1 vs v2:  v2 started shipping 9/25/2018
+		- Fixes issue where controller requires reset if selecting "DMX-512" as the pixel chipset.
+		- Tweaked protections for under-voltage lockout, preventing certain bricking issues.
+
+	v1a:
+		- First version of this firmware
+
+		
+NLED Pixel Controller Ion: http://www.nledshop.com/pixelion/
+
+	Bootloader v1(reports as 255) vs v2:  v2 started shipping 9/25/2018
+		- Standardized code and properly set the version number for reporting to software.
+
+	v1a:
+		- First version of this firmware

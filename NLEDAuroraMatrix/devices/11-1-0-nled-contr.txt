@@ -1,0 +1,39 @@
+HardwareID	11
+Name	Pixel Controller Ion - Aurora Matrix
+WebpageURL	www.NLEDshop.com/pixelion
+SupportedFirmwareV	1
+SupportedFirmwareRev	0
+SupportedHardwareV	1
+Channels	1536
+LockChannelAmt	false
+DataSpace	30720
+writeBlockSize	192	192	192	0 //index size, hwpv size, sequence size, +1 dummy to make it work....
+eraseBlockSize	1024
+HWPVSpace	0
+MaxIndexedSequences	256
+IndexMemoryModel	0
+FillUpperData	true
+16-BitProcessor	true
+16-bitMode	false
+BasicVersion	0
+LinkedSupport	true
+GammaCorrection	1
+AccelerometerMode	1
+MaxSpeed	65535
+MaxFrames	256	65535
+ConfigFlags	disabled,fGammaCorrectionEnabled,disabled,disabled,fDMXAutoRelease,fDMXReleaseIdle,fGlediatorOverRide,fMasterSyncCmd,fActivtyLEDMSBa,fActivtyLEDLSBa,fIRRXEnable,disabled,none,none,disabled,none
+ConfigBytes	bDMXAdrMSB,bDMXAdrLSB,bDMXModeID,bBaudRateID,bPixelChipset,bExpansionHeaderMode
+DMXRxModes	170 RGB Channel,Sequence Control
+PixelChipset	11
+PixelCS	WS2812/B	1
+PixelCS	WS2813	1
+PixelCS	WS2811(3 chn. I.C)	1
+PixelCS	WS2801(3 chn. I.C)	11
+PixelCS	LPD8806(6 chn. I.C)	2
+PixelCS	LPD6803(3 chn. I.C)	3
+PixelCS	APA102,APA107,SK9822	6
+PixelCS	APA104, APA106, PD9823	8
+PixelCS	TM1803, TM1804	5
+PixelCS	UCS1903, WS2812-LOWSPD	10
+PixelCS	UCS2903,UCS2904,UCS1903	9
+PixelCS	SK6805	12
